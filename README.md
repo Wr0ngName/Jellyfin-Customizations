@@ -5,7 +5,7 @@ Persist customizations in Jellyfin docker
 With LinuxServer.io image, we can use the custom-cont-init.d special folder to apply patches and create persistence.
 
 ## How to use
-Add a volume to your docker container:
+Add a volume to your docker container. Example for docker-compose.yml:
 
 ```
     volumes:
